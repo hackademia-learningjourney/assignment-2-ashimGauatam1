@@ -30,6 +30,7 @@ match x:
             if username in out["username"]:
                 if password in out["password"]:
                     print(f'welcome {username}')
+                    print(f'{out["mobile"]}')
                 else:
                    print("invalid credentials")    
             else:
